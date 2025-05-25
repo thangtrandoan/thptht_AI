@@ -1,0 +1,15 @@
+# docker-compose.yml (cho giáo viên)
+services:
+  detection-app:
+    image: moimoi05/person_counting_model-person_counter:latest # <<< Tên image trên Docker Hub
+    container_name: student_detection_system_gv
+    ports:
+      - "5000:5000"
+    volumes:
+      # Các volume cần thiết cho dữ liệu của giáo viên
+      - ./students_list.json:/app/students_list.json
+      - ./known_student_faces:/app/known_student_faces
+      - ./API:/app/API
+    # Dòng mount cho yolov8n.pt có thể không cần nữa nếu nó đã được đóng gói trong image
+    # devices: ... (tùy thuộc HĐH của giáo viên)
+    restart: unless-stopped
