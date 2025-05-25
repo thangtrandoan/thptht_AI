@@ -1,0 +1,3079 @@
+[
+    {
+        "id": "17",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:03:48.128592Z"
+    },
+    {
+        "id": "19",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:04:05.564142Z"
+    },
+    {
+        "id": "19",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:04:09.529009Z"
+    },
+    {
+        "id": "19",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:04:10.044204Z"
+    },
+    {
+        "id": "19",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:04:14.824609Z"
+    },
+    {
+        "id": "19",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:04:22.022315Z"
+    },
+    {
+        "id": "21",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:04:22.717231Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:25:34.482022Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:25:35.722436Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:25:37.721569Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:25:38.607599Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:25:38.939752Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:25:39.261075Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:25:41.916903Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:25:43.988741Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:25:46.068252Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:25:47.428313Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:27:29.610618Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:27:34.026708Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:27:36.048067Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:27:39.123957Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:27:41.339996Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:27:44.697936Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:27:48.192433Z"
+    },
+    {
+        "id": "6",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:27:52.105430Z"
+    },
+    {
+        "id": "7",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:27:55.455940Z"
+    },
+    {
+        "id": "8",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:27:59.920089Z"
+    },
+    {
+        "id": "8",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:01.948796Z"
+    },
+    {
+        "id": "8",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:09.148960Z"
+    },
+    {
+        "id": "8",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:11.953863Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:18.729505Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:22.209574Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:23.139574Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:24.730517Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:25.923741Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:26.622407Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:26.922904Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:28.515999Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:29.580500Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:30.796650Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:33.213662Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:33.822228Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:34.865387Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:49.682735Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:50.033902Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:28:50.675394Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:36:13.608582Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:36:15.000651Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:36:15.850402Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:36:36.718620Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:36:37.481192Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:36:40.168483Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:36:42.954257Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:36:49.195654Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:36:53.567132Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:36:57.149497Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:37:01.155803Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:37:04.747926Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:37:11.129852Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:37:15.008091Z"
+    },
+    {
+        "id": "4",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:37:20.617939Z"
+    },
+    {
+        "id": "5",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:37:25.363625Z"
+    },
+    {
+        "id": "7",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:37:30.220600Z"
+    },
+    {
+        "id": "7",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:37:36.958399Z"
+    },
+    {
+        "id": "7",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:37:44.658418Z"
+    },
+    {
+        "id": "7",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:37:48.194129Z"
+    },
+    {
+        "id": "9",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:37:50.348694Z"
+    },
+    {
+        "id": "7",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:37:52.243079Z"
+    },
+    {
+        "id": "7",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:37:55.745428Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:38:08.839104Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:38:12.410290Z"
+    },
+    {
+        "id": "13",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:38:15.244314Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:38:20.065477Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:38:24.279520Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:38:28.893108Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:38:38.084469Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:38:46.393185Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:38:57.821996Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:39:10.834611Z"
+    },
+    {
+        "id": "16",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:39:15.825966Z"
+    },
+    {
+        "id": "17",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:39:18.564077Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:40:42.526201Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:40:48.125768Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:40:50.650329Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:40:55.277112Z"
+    },
+    {
+        "id": "4",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:41:11.238864Z"
+    },
+    {
+        "id": "4",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:41:14.930385Z"
+    },
+    {
+        "id": "4",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:41:18.935671Z"
+    },
+    {
+        "id": "4",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:41:24.997998Z"
+    },
+    {
+        "id": "5",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:41:33.174792Z"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:41:38.496239Z"
+    },
+    {
+        "id": "7",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:41:48.087431Z"
+    },
+    {
+        "id": "8",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:41:48.259149Z"
+    },
+    {
+        "id": "8",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:41:52.413572Z"
+    },
+    {
+        "id": "8",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T06:41:56.603797Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:42:00.395700Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:42:08.114751Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:42:12.688052Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T06:42:17.110034Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:21:09.931188Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:21:11.036531Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T07:21:42.391351Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Lên xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T07:22:02.463421Z"
+    },
+    {
+        "id": "23020422",
+        "name": "Nguyen Dinh Quyen",
+        "type": "student",
+        "action": "Xuống xe",
+        "is_stranger": false,
+        "timestamp": "2025-05-25T07:22:05.223536Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:22:09.968732Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:22:11.541793Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:22:16.899175Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:22:19.070341Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:22:21.447553Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:22:27.873525Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:22:30.163918Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:22:32.884664Z"
+    },
+    {
+        "id": "2",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T07:22:35.211792Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:22.335015Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:22.685446Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:24.521000Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:25.154172Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:28.342973Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:34.684125Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:36.933684Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:39.742758Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:44.470397Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:45.173849Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:46.003540Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:46.600227Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:46.929184Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:47.419561Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:50.243351Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:50.923595Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:52.887970Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:53.885921Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:54.887682Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:55.438664Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:55.996912Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:56.965824Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:57.662300Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:58.033018Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:58.408649Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:00:59.331655Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:01:00.045987Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:01:00.769932Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:01:03.415403Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:01:11.032917Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:01:18.546726Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:01:43.770785Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:01:46.183088Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:09.543409Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:18.946818Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:26.670145Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:27.477936Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:27.894632Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:29.450542Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:30.176903Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:37.029072Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:41.518299Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:42.849920Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:44.781648Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:45.462286Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:46.539749Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:50.475201Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:54.313201Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:54.856417Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:58.359521Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:58.794125Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:59.168994Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:02:59.821144Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:01.740814Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:02.487340Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:02.894700Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:03.947537Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:05.089043Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:05.631900Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:07.305908Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:08.085195Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:08.581451Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:10.722638Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:11.234784Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:11.603186Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:12.363221Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:12.725004Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:13.079289Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:13.770855Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:14.141705Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:14.515645Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:16.162522Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:17.220402Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:18.878919Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:19.691516Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:20.572842Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:21.911658Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:24.773733Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:28.231571Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:29.254430Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:31.219407Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:33.619908Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:34.215857Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:35.719263Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:38.994823Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:43.771327Z"
+    },
+    {
+        "id": "1",
+        "name": "Người lạ",
+        "type": "stranger",
+        "action": "Lên xe",
+        "is_stranger": true,
+        "timestamp": "2025-05-25T13:03:46.479987Z"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:24.818"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:14:29.037"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:29.815"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:14:37.704"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:47.031"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:14:47.477"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:47.910"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:14:48.188"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:48.428"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:14:51.574"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:51.718"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:14:51.862"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:52.013"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:14:52.644"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:53.142"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:14:53.650"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:53.823"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:14:55.635"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:55.939"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:14:56.753"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:14:56.970"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:15:00.358"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:15:17.811"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:15:18.393"
+    },
+    {
+        "id": "23020410",
+        "name": "Nguyễn Trong Hong Phuc",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:16:39.614"
+    },
+    {
+        "id": "23020410",
+        "name": "Nguyễn Trong Hong Phuc",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:16:49.843"
+    },
+    {
+        "id": "23020410",
+        "name": "Nguyễn Trong Hong Phuc",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:17:01.506"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:18:25.110"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:18:26.958"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:18:36.806"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:18:59.070"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:19:01.577"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:19:01.720"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:19:02.889"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:19:03.264"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:19:52.901"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:19:53.270"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:19:56.472"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:19:56.783"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:20:00.475"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:20:00.612"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:22:20.104"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:22:20.250"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:22:20.803"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:22:21.734"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:22:22.584"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:22:25.112"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:22:26.084"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:22:26.786"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:22:35.538"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:22:37.246"
+    },
+    {
+        "id": "3",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:22:44.647"
+    },
+    {
+        "id": "4",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:23:03.702"
+    },
+    {
+        "id": "4",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:23:10.627"
+    },
+    {
+        "id": "6",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:23:21.599"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:24:31.691"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:24:32.237"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:24:32.357"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:24:37.990"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:24:47.806"
+    },
+    {
+        "id": "4",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:24:55.277"
+    },
+    {
+        "id": "4",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:25:05.065"
+    },
+    {
+        "id": "4",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:25:11.456"
+    },
+    {
+        "id": "5",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:25:17.945"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:27:13.189"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:31:40.404"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:31:40.672"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:31:42.473"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:31:42.767"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:31:47.449"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:31:47.631"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:31:48.171"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:31:48.328"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:32:13.804"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:32:14.448"
+    },
+    {
+        "id": "3",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:32:39.760"
+    },
+    {
+        "id": "5",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:32:40.431"
+    },
+    {
+        "id": "5",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:33:00.686"
+    },
+    {
+        "id": "5",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:33:01.448"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:36:41.107"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:36:43.098"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:36:58.998"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:37:01.233"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:38:51.020"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:38:51.320"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:39:37.325"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:39:39.439"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:41:28.074"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:41:28.231"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:41:56.072"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:41:57.950"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:43:57.757"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:43:58.303"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:45:35.019"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:45:35.229"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:45:39.792"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:45:39.964"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:45:53.297"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:46:05.358"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:46:05.542"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:46:08.394"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:46:08.570"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:46:11.090"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:46:11.455"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:46:14.362"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:46:45.321"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:46:47.581"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:47:33.337"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:47:36.326"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:48:32.240"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:48:48.090"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:48:48.354"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:48:49.577"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:28.551"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:29.257"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:31.285"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:32.245"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:32.755"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:33.264"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:33.436"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:35.397"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:35.792"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:36.349"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:37.251"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:37.574"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:38.135"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:38.335"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:38.539"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:39.034"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:39.762"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:40.910"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:42.300"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:43.199"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:43.488"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:43.704"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:44.025"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:46.172"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:46.555"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:47.264"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:47.468"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:47.871"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:48.234"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:48.772"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:48.952"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:49.685"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:49.893"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:50.882"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:49:51.469"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:49:52.407"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 20:51:24.170"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 20:51:38.406"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:08:44.567"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:08:45.975"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:08:47.548"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:08:47.700"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:08:47.840"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:08:50.253"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:08:50.401"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:08:50.652"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:08:50.774"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:08:52.110"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:08:52.255"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:08:53.077"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:09:14.577"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:09:16.082"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:09:25.799"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:09:28.944"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:09:31.767"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:09:34.719"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:09:37.573"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:09:40.217"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:09:49.395"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:09:49.516"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:10:51.450"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:10:52.161"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:10:52.653"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:10:52.980"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:11:06.649"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:11:06.874"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:11:07.150"
+    },
+    {
+        "id": "1",
+        "name": "Stranger",
+        "type": "stranger",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:11:07.293"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:50:17.875"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:50:19.527"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:50:21.843"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:50:23.529"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:50:26.308"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:50:28.343"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:50:35.256"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:50:36.698"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:50:38.783"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:50:40.425"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:50:52.182"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:50:53.518"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:50:55.322"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:50:56.546"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:50:59.817"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:51:00.747"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:51:12.747"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:51:12.953"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:51:13.131"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:51:17.696"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:51:18.047"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:51:29.824"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:51:29.993"
+    },
+    {
+        "id": "23020438",
+        "name": "Trần Doãn Thắng",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:51:30.128"
+    },
+    {
+        "id": "23020438",
+        "name": "Tran Doan Thang",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:53:44.954"
+    },
+    {
+        "id": "23020438",
+        "name": "Tran Doan Thang",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:53:45.898"
+    },
+    {
+        "id": "23020438",
+        "name": "Tran Doan Thang",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:53:48.422"
+    },
+    {
+        "id": "23020438",
+        "name": "Tran Doan Thang",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:53:49.898"
+    },
+    {
+        "id": "23020438",
+        "name": "Tran Doan Thang",
+        "type": "student",
+        "action": "Lên xe",
+        "timestamp": "2025-05-25 22:53:52.101"
+    },
+    {
+        "id": "23020438",
+        "name": "Tran Doan Thang",
+        "type": "student",
+        "action": "Xuống xe",
+        "timestamp": "2025-05-25 22:53:53.683"
+    }
+]

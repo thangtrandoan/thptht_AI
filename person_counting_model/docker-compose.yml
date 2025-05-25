@@ -1,0 +1,23 @@
+# D:\code\person_counting_model\docker-compose.yml
+services:
+  detection-app: # Bạn có thể đặt tên service này tùy ý (ví dụ: app, web, person_counter)
+    build: . # Yêu cầu Docker Compose build image từ Dockerfile trong thư mục hiện tại
+    container_name: person_counting_app_local # Tên container khi chạy trên máy bạn
+    ports:
+      - "5000:5000" # Ánh xạ cổng 5000 của máy bạn vào cổng 5000 của container
+    volumes:
+      # Các volume này giúp bạn phát triển: thay đổi code/data trên máy sẽ phản ánh ngay vào container
+      # mà không cần build lại (trừ khi thay đổi Dockerfile hoặc requirements.txt)
+      - ./app.py:/app/app.py
+      - ./students_list.json:/app/students_list.json # Dùng file students_list.json trên máy bạn
+      - ./known_student_faces:/app/known_student_faces # Dùng thư mục ảnh trên máy bạn
+      - ./API:/app/API # Dữ liệu lịch sử sẽ được ghi vào thư mục API trên máy bạn
+      - ./templates:/app/templates
+      - ./static:/app/static
+      # - ./yolov8n.pt:/app/yolov8n.pt # Dòng này không cần thiết nữa nếu yolov8n.pt đã được COPY vào image qua Dockerfile
+      #                                 # Nếu bạn muốn ghi đè file trong image bằng file trên host, hãy giữ lại.
+    environment: # Các biến môi trường (nếu cần)
+      - QT_X11_NO_MITSHM=1 # Có thể hữu ích cho OpenCV GUI trên Linux
+    # devices: # Bỏ comment nếu bạn cần truy cập camera trên Linux khi test local
+    #   - "/dev/video0:/dev/video0"
+    restart: unless-stopped

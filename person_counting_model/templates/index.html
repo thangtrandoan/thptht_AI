@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Đếm Người</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='badge-styles.css') }}">
+    <!-- <link rel="stylesheet" href="/static/style.css"> -->
+    <!-- Bootstrap 5 -->    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-layout">
+        <div class="left-panel">
+            <div class="video-wrapper">
+                <img id="videoFeed" src="{{ url_for('video_feed') }}" alt="Video Stream">
+                <div class="video-footer">Camera trực tiếp</div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <!-- Tab 1 -->
+            <div id="current" class="tab-content active">
+                <div class="list">
+                    <h1>Học sinh trên xe</h1>
+                    <input type="text" class="search-box" placeholder="Tìm người...">
+                    <div class="tracked-section">
+                        <ul id="trackedObjectsList" class="tracked-list">
+                            <li>Đang tải dữ liệu...</li>
+                        </ul>
+                    </div>
+                    <div class="count-display">
+                        👤 Số người (Net): <span id="netCountDisplay">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 2 -->
+            <div id="history" class="tab-content">
+                <div class="history">
+                    <h1>Lịch sử lên xuống</h1>
+                    <ul id="historyList" class="history-list">
+                        <!-- Các dòng lịch sử sẽ được thêm ở đây -->
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Tab 3 -->
+            <div id="list" class="tab-content">
+                <div class="hoc-sinh">
+                    <h1>Danh sách học sinh</h1>
+                    <!-- Nút mở modal thêm học sinh -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addStudentModal">
+                        Thêm học sinh mới
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- List nav-tabs 3 nút -->
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#current">Hiện tại</a></li>
+                <li><a href="#history">Lịch sử</a></li>
+                <li><a href="#list">Danh sách</a></li>
+                <!-- <li>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#studentModal">
+                        Xem thông tin học sinh
+                    </button>
+                </li> -->
+            </ul>
+              
+        </div>
+    </div>
+    
+      
+      
+    <!-- modal thông tin học sinh -->
+    <div class="modal fade" id="studentModal" tabindex="-1" aria-labelledby="studentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content p-3">
+            <div class="modal-header">
+            <h5 class="modal-title" id="studentModalLabel">Thông tin học sinh</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>            <div class="modal-body">
+            <div class="row">
+                <!-- Ảnh học sinh -->
+                <div class="col-md-4 text-center">
+                <img id="studentImage" src="" alt="Ảnh học sinh" class="img-fluid rounded shadow-sm">
+                <div class="mt-2">
+                    <button type="button" class="btn btn-sm btn-outline-primary" id="changeAvatarBtn">Thay ảnh đại diện</button>
+                    <input type="file" id="avatarFileInput" style="display: none;" accept="image/*">
+                </div>
+                </div>
+    
+                <!-- Thông tin học sinh -->
+                <div class="col-md-8">
+                <h5 id="studentName">Nguyễn Văn A</h5>
+                <p><strong>Lớp:</strong> <span id="studentClass">12A1</span></p>
+                <p><strong>Tuổi:</strong> <span id="studentAge">17</span></p>
+                <p><strong>Địa chỉ:</strong> <span id="studentAddress">123 Đường ABC, Hà Nội</span></p>
+                </div>
+            </div>
+    
+            <hr>
+    
+            <div class="row">
+                <!-- Thông tin bố -->
+                <div class="col-md-6">
+                <h6>Thông tin bố</h6>
+                <p><strong>Tên:</strong> <span id="fatherName">Nguyễn Văn B</span></p>
+                <p><strong>Tuổi:</strong> <span id="fatherAge">45</span></p>
+                <p><strong>SĐT:</strong> <span id="fatherPhone">0123456789</span></p>
+                </div>
+    
+                <!-- Thông tin mẹ -->
+                <div class="col-md-6">
+                <h6>Thông tin mẹ</h6>
+                <p><strong>Tên:</strong> <span id="motherName">Trần Thị C</span></p>
+                <p><strong>Tuổi:</strong> <span id="motherAge">42</span></p>
+                <p><strong>SĐT:</strong> <span id="motherPhone">0987654321</span></p>
+                </div>
+            </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-primary" id="editStudentInfoBtn">Sửa thông tin</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal Thêm thông tin học sinh -->
+    <div class="modal fade" id="addStudentModal" tabindex="-1" aria-labelledby="addStudentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content p-3">
+            <div class="modal-header">
+            <h5 class="modal-title" id="addStudentModalLabel">Thêm thông tin học sinh</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>
+            <form id="addStudentForm">            <div class="modal-body">
+                <div class="mb-3">
+                <label for="inputStudentId" class="form-label">Mã học sinh</label>
+                <input type="text" class="form-control" id="inputStudentId" placeholder="Nhập mã học sinh" required>
+                </div>
+                <div class="mb-3">
+                <label for="inputStudentName" class="form-label">Họ và tên</label>
+                <input type="text" class="form-control" id="inputStudentName" placeholder="Nhập tên học sinh" required>
+                </div>
+                <div class="mb-3">
+                <label for="inputStudentClass" class="form-label">Lớp</label>
+                <input type="text" class="form-control" id="inputStudentClass" placeholder="Nhập lớp" required>
+                </div>
+                <div class="mb-3">
+                <label for="inputStudentAge" class="form-label">Tuổi</label>
+                <input type="number" class="form-control" id="inputStudentAge" placeholder="Nhập tuổi" min="1" max="100" required>
+                </div>
+                <div class="mb-3">
+                <label for="inputStudentAddress" class="form-label">Địa chỉ</label>
+                <input type="text" class="form-control" id="inputStudentAddress" placeholder="Nhập địa chỉ" required>
+                </div>                <div class="mb-3">
+                <label for="inputStudentImages" class="form-label">Ảnh học sinh <span class="text-danger">*</span></label>
+                <input type="file" class="form-control" id="inputStudentImages" accept="image/*" multiple required>
+                <div class="form-text text-muted">Ảnh đầu tiên sẽ được sử dụng làm ảnh đại diện. Tải lên nhiều ảnh để cải thiện độ chính xác nhận diện.</div>
+                <div id="imagePreviewContainer" class="mt-2 d-flex flex-wrap gap-2"></div>
+                </div>
+    
+                <hr>
+    
+                <h6>Thông tin bố</h6>
+                <div class="mb-3">
+                <label for="inputFatherName" class="form-label">Tên bố</label>
+                <input type="text" class="form-control" id="inputFatherName" placeholder="Nhập tên bố" required>
+                </div>
+                <div class="mb-3">
+                <label for="inputFatherAge" class="form-label">Tuổi bố</label>
+                <input type="number" class="form-control" id="inputFatherAge" placeholder="Nhập tuổi bố" min="1" max="150" required>
+                </div>
+                <div class="mb-3">
+                <label for="inputFatherPhone" class="form-label">SĐT bố</label>
+                <input type="tel" class="form-control" id="inputFatherPhone" placeholder="Nhập số điện thoại bố" required>
+                </div>
+    
+                <hr>
+    
+                <h6>Thông tin mẹ</h6>
+                <div class="mb-3">
+                <label for="inputMotherName" class="form-label">Tên mẹ</label>
+                <input type="text" class="form-control" id="inputMotherName" placeholder="Nhập tên mẹ" required>
+                </div>
+                <div class="mb-3">
+                <label for="inputMotherAge" class="form-label">Tuổi mẹ</label>
+                <input type="number" class="form-control" id="inputMotherAge" placeholder="Nhập tuổi mẹ" min="1" max="150" required>
+                </div>
+                <div class="mb-3">
+                <label for="inputMotherPhone" class="form-label">SĐT mẹ</label>
+                <input type="tel" class="form-control" id="inputMotherPhone" placeholder="Nhập số điện thoại mẹ" required>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <button type="submit" class="btn btn-primary">Lưu thông tin</button>
+            </div>
+            </form>
+        </div>
+        </div>    </div>
+
+    <!-- Modal Chỉnh sửa thông tin học sinh -->
+    <div class="modal fade" id="editStudentModal" tabindex="-1" aria-labelledby="editStudentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content p-3">
+            <div class="modal-header">
+            <h5 class="modal-title" id="editStudentModalLabel">Chỉnh sửa thông tin học sinh</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>
+            <form id="editStudentForm">
+            <input type="hidden" id="editStudentId">
+            <div class="modal-body">
+                <div class="mb-3">
+                <label for="editStudentName" class="form-label">Họ và tên</label>
+                <input type="text" class="form-control" id="editStudentName" placeholder="Nhập tên học sinh" required>
+                </div>
+                <div class="mb-3">
+                <label for="editStudentClass" class="form-label">Lớp</label>
+                <input type="text" class="form-control" id="editStudentClass" placeholder="Nhập lớp" required>
+                </div>
+                <div class="mb-3">
+                <label for="editStudentAge" class="form-label">Tuổi</label>
+                <input type="number" class="form-control" id="editStudentAge" placeholder="Nhập tuổi" min="1" max="100" required>
+                </div>
+                <div class="mb-3">
+                <label for="editStudentAddress" class="form-label">Địa chỉ</label>
+                <input type="text" class="form-control" id="editStudentAddress" placeholder="Nhập địa chỉ" required>
+                </div>
+    
+                <hr>
+    
+                <h6>Thông tin bố</h6>
+                <div class="mb-3">
+                <label for="editFatherName" class="form-label">Tên bố</label>
+                <input type="text" class="form-control" id="editFatherName" placeholder="Nhập tên bố" required>
+                </div>
+                <div class="mb-3">
+                <label for="editFatherAge" class="form-label">Tuổi bố</label>
+                <input type="number" class="form-control" id="editFatherAge" placeholder="Nhập tuổi bố" min="1" max="150" required>
+                </div>
+                <div class="mb-3">
+                <label for="editFatherPhone" class="form-label">SĐT bố</label>
+                <input type="tel" class="form-control" id="editFatherPhone" placeholder="Nhập số điện thoại bố" required>
+                </div>
+    
+                <hr>
+    
+                <h6>Thông tin mẹ</h6>
+                <div class="mb-3">
+                <label for="editMotherName" class="form-label">Tên mẹ</label>
+                <input type="text" class="form-control" id="editMotherName" placeholder="Nhập tên mẹ" required>
+                </div>
+                <div class="mb-3">
+                <label for="editMotherAge" class="form-label">Tuổi mẹ</label>
+                <input type="number" class="form-control" id="editMotherAge" placeholder="Nhập tuổi mẹ" min="1" max="150" required>
+                </div>
+                <div class="mb-3">
+                <label for="editMotherPhone" class="form-label">SĐT mẹ</label>
+                <input type="tel" class="form-control" id="editMotherPhone" placeholder="Nhập số điện thoại mẹ" required>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <!-- <script src="/static/script.js" defer></script> -->
+    <!-- Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

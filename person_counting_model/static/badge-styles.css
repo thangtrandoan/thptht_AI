@@ -1,0 +1,65 @@
+/* Thêm vào cuối file style.css */
+/* Styles for status badges */
+.badge.bg-success {
+    background-color: #28a745 !important;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.badge.bg-secondary {
+    background-color: #6c757d !important;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+/* Phần thêm mới cho bảng danh sách học sinh */
+.table-container {
+    max-height: 500px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.table-container table {
+    margin-bottom: 0;
+}
+
+.table-container thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 1;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Styles for the action buttons in the table */
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+/* Custom scrollbar styling */
+.table-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
