@@ -6,6 +6,7 @@
 
 # Virtual environment
 venv*
+facenet-env/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -37,6 +38,17 @@ Dockerfile*
 .vscode/
 *.swp
 *.swo
+
+# Cache files (these will be volume mounted)
+embeddings_cache.npz
+embeddings_metadata.json
+API/history.json
+
+# Build scripts
+*.bat
+build_docker.bat
+push_docker.bat
+docker_build_push.bat
 
 # Project specific
 *.log

@@ -1,33 +1,47 @@
-# Dockerfile
+# Dockerfile for Student Detection System
 FROM python:3.10-slim
+
+# Set working directory
 WORKDIR /app
 
-# Cài đặt các gói hệ thống
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
     libgl1-mesa-glx \
     libglib2.0-0 \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    libgomp1 \
     ffmpeg \
     && rm -rf /var/lib/apt/lists/*
 
-# Sao chép file requirements và cài đặt thư viện Python
+# Copy requirements and install Python packages
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# ---- ĐÓNG GÓI CÁC THÀNH PHẦN CỐ ĐỊNH ----
+# Copy YOLO model (fixed component)
 COPY yolov8n.pt /app/yolov8n.pt
-# COPY yolov8s.pt /app/yolov8s.pt # Nếu bạn dùng cả model này
+
+# Copy default students list (will be overridden by volume mount)
 COPY students_list.json /app/students_list.json
 
-# Tạo các thư mục cần thiết có thể rỗng ban đầu
-RUN mkdir -p /app/API
-RUN mkdir -p /app/known_student_faces
-# RUN mkdir -p /app/deepface_database_students # Nếu ứng dụng của bạn dùng đến mà không tự tạo
+# Create necessary directories
+RUN mkdir -p /app/API \
+    && mkdir -p /app/known_student_faces \
+    && mkdir -p /app/templates \
+    && mkdir -p /app/static
 
-# ---- SAO CHÉP MÃ NGUỒN VÀ TÀI NGUYÊN CÒN LẠI ----
+# Copy application source code and resources
 COPY app.py .
-COPY templates /app/templates/
-COPY static /app/static/
-# COPY .dockerignore . # Thường không cần copy .dockerignore vào image
+COPY templates/ /app/templates/
+COPY static/ /app/static/
 
+# Expose port
 EXPOSE 5000
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
+ENV QT_X11_NO_MITSHM=1
+
+# Run the application
 CMD ["python", "app.py"]
