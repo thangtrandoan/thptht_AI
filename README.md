@@ -40,7 +40,7 @@ This project provides a person detection and face recognition system for monitor
 1. Pull the Docker image:
 
    ```bash
-   docker pull moimoi05/person_counting_model-person_counter
+   docker pull moimoi05/person_counting_model-person_counter:latest
    ```
 
 2. Download `docker-compose.yml` file and save in a folder:
@@ -91,6 +91,6 @@ This project provides a person detection and face recognition system for monitor
 
 ## Docker Hub Repository
 
-The Docker image is available at: [Docker Hub - moimoi05/person_counting_model-person_counter](https://hub.docker.com/repository/docker/moimoi05/person_counting_model-person_counter/general)
+The Docker image is available at: [Docker Hub - moimoi05/person_counting_model-person_counter](https://hub.docker.com/r/moimoi05/person_counting_model-person_counter)
 
 github: https://github.com/thangtrandoan/thptht_AI
