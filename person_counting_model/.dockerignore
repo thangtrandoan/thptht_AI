@@ -1,57 +1,83 @@
-# .dockerignore file
-
 # Git
+
 .git
 .gitignore
 
-# Virtual environment
-venv*
-facenet-env/
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
+# Python
+
+**pycache**
+_.pyc
+_.pyo
+_.pyd
 .Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+env
+venv
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage._
+.cache
+nosetests.xml
+coverage.xml
+_.cover
+_.log
+.pytest_cache
+
+# IDE
+
+.vscode
+.idea
+_.swp
+_.swo
+\*~
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Documentation
+
+README.md
+\*.md
 
 # Docker
+
+Dockerfile
+docker-compose.yml
 .dockerignore
-docker-compose*.yml
-Dockerfile*
 
-# Editor specific
-.idea/
-.vscode/
-*.swp
-*.swo
+# Backup files
 
-# Cache files (these will be volume mounted)
-embeddings_cache.npz
-embeddings_metadata.json
-API/history.json
+_.bak
+_.tmp
+\*.temp
 
-# Build scripts
-*.bat
-build_docker.bat
-push_docker.bat
-docker_build_push.bat
+# Large model files (if they exist locally but should be downloaded)
 
-# Project specific
-*.log
-setup_venv.bat
-README.md
-LICENSE
+# \*.pt
+
+# \*.pth
+
+# \*.onnx
+
+# Logs
+
+\*.log
+logs/
+
+# Build artifacts
+
+build/
+dist/
+\*.egg-info/
+
+# NOTE: secrets/ folder and credentials.json will be included in Docker image
+
+# Remove the following lines if you don't want to include credentials in image:
+
+# secrets/
+
+# credentials.json

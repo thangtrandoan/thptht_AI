@@ -91,6 +91,6 @@ This project provides a person detection and face recognition system for monitor
 
 ## Docker Hub Repository
 
-The Docker image is available at: [Docker Hub - moimoi05/person_counting_model-person_counter](https://hub.docker.com/r/yourusername/person_counter)
+The Docker image is available at: [Docker Hub - moimoi05/person_counting_model-person_counter](https://hub.docker.com/repository/docker/moimoi05/person_counting_model-person_counter/general)
 
 github: https://github.com/thangtrandoan/thptht_AI

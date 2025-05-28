@@ -1,23 +1,38 @@
-# Docker Compose for Student Detection System
-# Hướng dẫn sử dụng:
-# 1. Đảm bảo Docker và Docker Compose đã được cài đặt
-# 2. Chạy: docker compose up -d
-# 3. Truy cập: http://localhost:5000
+version: '3.8'
 
 services:
-  # Service chính - Student Detection System
-  student-detection:
+  person_counter:
     image: moimoi05/person_counting_model-person_counter:latest
-    container_name: student_detection_system
+    container_name: person_counting_app
     ports:
       - "5000:5000"
     volumes:
-      - ./known_student_faces:/app/known_student_faces
-      - ./API:/app/API
+      # Sử dụng named volumes để lưu trữ dữ liệu persistent
+      - api_data:/app/API
+      - student_faces:/app/known_student_faces
+      - secrets_data:/app/secrets
     environment:
-      - QT_X11_NO_MITSHM=1
-    # Để sử dụng camera trên Linux, bỏ comment các dòng bên dưới:
+      - PYTHONUNBUFFERED=1
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility,video
     restart: unless-stopped
+    # healthcheck:
+    #   test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+    #   interval: 30s
+    #   timeout: 10s
+    #   retries: 3
+    #   start_period: 60s
+    # Uncomment nếu có GPU và muốn sử dụng GPU
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
 
-    # devices:
-    #   - "/dev/video0:/dev/video0"
+# Tạo volumes để lưu trữ dữ liệu
+volumes:
+  api_data:
+  student_faces:
+  secrets_data:
